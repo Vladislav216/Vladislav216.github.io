@@ -1,0 +1,102 @@
+
+@import url(https://fonts.googleapis.com/css?family=Teko&display=swap);
+
+body {
+    font-size: 18px;
+    font-family: Teko, serif;
+    background: linear-gradient(90deg, #100085 0%, #2d2d2d 100%);
+}
+p{
+    color:aquamarine ;
+}
+.nav-link{
+    color: rgb(186, 187, 187);
+}
+.navbar-nav .nav-link.active{
+
+    color: aqua;
+}
+.navbar-brand img{
+    width: 45px;
+}
+.navbar-toggler{
+    background-color: rgb(168, 168, 168);
+}
+.sidebar{
+    color: aqua;
+    background: linear-gradient(270deg, #0d02a6 0%, #3d3d3d 79%);
+}
+.mini-body{
+    font-size: 25px;
+    font-weight: bold;
+}
+.card{
+    color: rgb(199, 163, 0);
+    background: linear-gradient(80deg, #7300d1 35%, #363636 100%);
+}
+.card a{
+    text-decoration: none;
+    color: rgb(199, 163, 0);
+}
+.slide-text
+
+{
+    color: aquamarine;
+    margin : auto auto
+}
+.container-fluid .fut1{
+    color: aquamarine;
+    font-size: 25px;
+    margin-top: 50px;
+}
+.container-fluid .fut{
+    color: aquamarine;
+    font-size: 20px;
+    margin-top: 20px;    
+}
+footer,
+.cnopka{
+    background: linear-gradient(5deg, #2000c0 35%, #000000 100%);
+    
+}
+.apps{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+.container-fluid{
+    margin-top: 20px;
+}
+.amimation{
+    animation: myAnim 2s linear 1s infinite normal forwards;
+}
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+.cnopka{
+    font-size: 33px;
+}
